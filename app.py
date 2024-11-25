@@ -9,7 +9,7 @@ import os
 
 def main():
     # Config the API 
-    genai.configure(api_key=os.getenv(''))
+    genai.configure(api_key=os.getenv('SECRET_KEY'))
 
     # Establecemos el modelo que vamos a usar
     model = genai.GenerativeModel("gemini-1.5-flash")
