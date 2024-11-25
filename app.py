@@ -2,12 +2,15 @@ from multiprocessing.pool import RUN
 from urllib import response
 import google.generativeai as genai
 import PIL.Image
-from properties import api_key, to_markdown
+from properties import to_markdown
 from dotenv import load_dotenv
 import os
 
 
 def main():
+    # Load the file's variables .env with dotoenv
+    load_dotenv()
+
     # Config the API 
     genai.configure(api_key=os.getenv('SECRET_KEY'))
 
