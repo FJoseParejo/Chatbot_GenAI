@@ -1,57 +1,54 @@
 # 🌟🤖 Chatbot Generador de Contenido con Gen AI de Gemini
 
-Este repositorio contiene un **chatbot avanzado** desarrollado con la tecnología **Gen AI de Gemini**, diseñado para recibir imágenes proporcionadas por el usuario y generar contenido enriquecido basado en ellas. Además, el texto generado se embellece y formatea mediante la integración con **TextRawp**, asegurando publicaciones más profesionales y atractivas.
+Este repositorio contiene un **chatbot avanzado** desarrollado con la tecnología **Gen AI de Gemini**, diseñado para recibir imágenes proporcionadas por el usuario y generar contenido enriquecido basado en ellas. Además, el texto generado es **embellecido y formateado** mediante la integración con **TextRawp**, asegurando publicaciones más profesionales y atractivas.
 
 ---
 
-## 🚀 Características Principales
+## 🚀 **Características Principales**
 
-### 📸 Carga de Imágenes por el Usuario
-- Permite a los usuarios cargar imágenes directamente en formatos como `.jpg` o `.png`.
+### **Carga de Imágenes por el Usuario**
+- Permite al usuario cargar imágenes directamente en formatos como **.jpg** o **.png**.
 
-### ✍️ Generación de Descripciones
-- Procesa las imágenes cargadas para generar **descripciones objetivas** que resumen su contenido visual.
+### **Generación de Descripciones**
+- Procesa la imagen cargada para generar una **descripción objetiva** que resuma su contenido visual.
 
-### 🎨 Embellecimiento del Texto con TextRawp
+### **Embellecimiento del Texto con TextRawp**
 El texto generado por el modelo se procesa a través de **TextRawp** para:
-- Aplicar formatos atractivos como **negritas**, *cursivas* y añadir emojis. 😊
-- Generar textos visualmente impactantes ideales para redes sociales o blogs.
+- **Aplicar formatos atractivos** (negritas, cursivas, emojis, etc.).
+- **Generar textos visualmente impactantes** para publicaciones en redes sociales o blogs.
 
-### 📝 Creación de Publicaciones Personalizadas
-- Combina el análisis visual de la imagen con el **contexto y experiencia del usuario** para generar textos únicos y estilizados.
+### **Creación de Publicaciones Personalizadas**
+- Combina el análisis visual de la imagen con el **contexto y experiencia del usuario**, generando textos únicos y estilizados.
 
-### 🖋️ Personalización Estilística
-- Permite ajustar el estilo del texto según las necesidades del usuario:
-  - Informativo
-  - Emocional
-  - Técnico
-  - Profesional
-  - Casual, entre otros.
+### **Personalización Estilística**
+- Permite ajustar el estilo del texto (**informativo, emocional, técnico, profesional, casual**, etc.), adaptándolo a las necesidades del usuario y del público objetivo al que se está dirigiendo.
 
 ---
 
-## 🛠️ Tecnologías Utilizadas
+## 🛠️ **Tecnologías Utilizadas**
 
 - **Gen AI de Gemini**: Tecnología avanzada de generación de lenguaje con capacidades creativas y contextuales.
-- **TextRawp**: Herramienta para optimización y embellecimiento de texto para publicaciones profesionales.
-- **Procesamiento de Imágenes**: 
-  - Uso de bibliotecas como **Pillow** para manejar formatos de imágenes.
-  - Funciones como dimensiones, recortes, filtros y rotaciones.
+- **TextRawp**: Herramienta de optimización y embellecimiento de texto para publicaciones profesionales y atractivas.
+- **Procesamiento de Imágenes**: Utilización de bibliotecas como **Pillow** para manejar formatos y características básicas de las imágenes cargadas como dimensiones, recortes, filtros, rotaciones, etc.
 
 ---
 
-## 🖼️ Ejemplo de Flujo
+## 🖼️ **Ejemplo de Flujo**
 
-### **1. Carga de Imagen**
-El usuario carga una imagen en formato `.jpg`.
+### **Carga de Imagen**
+El usuario carga una imagen en formato **.jpg**.
 
-### **2. Generación de Output**
-- **Descripción Breve**: 
-  > "Un bosque verde iluminado por rayos de sol, con un camino serpenteante entre los árboles."
+### **Output generado**
+- **Descripción Breve**:  
+  *"Un bosque verde iluminado por rayos de sol, con un camino serpenteante entre los árboles."*
 
-- **Publicación Personalizada (embellecida con TextRawp)**:
-  ```markdown
+- **Publicación Personalizada (embellecida con TextRawp):**  
   🌿 **La magia de la naturaleza** 🌞  
-  Un paseo por este bosque verde iluminado por los rayos del sol me recuerda lo maravilloso que es conectarse con lo natural. Caminando por este sendero serpenteante, el aire fresco y los sonidos del bosque me llenaron de paz.
+  Un paseo por este bosque verde iluminado por los rayos del sol me recuerda lo maravilloso que es conectarse con lo natural.  
+  Caminando por este sendero serpenteante, el aire fresco y los sonidos del bosque me llenaron de paz.  
 
-  🌟 ¡Momentos como este hacen que valga la pena explorar! 🌳
+  🌟 **¡Momentos como este hacen que valga la pena explorar!** 🌳
+
+---
+
+## ✨ **¡Gracias por explorar este proyecto!** ✨
